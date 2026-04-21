@@ -1,4 +1,4 @@
-\node {
+node {
     checkout scm
 
     def PROD_HOST = 'host.docker.internal'
