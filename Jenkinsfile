@@ -1,7 +1,7 @@
-node {
+\node {
     checkout scm
 
-    def PROD_HOST = '172.30.236.229'
+    def PROD_HOST = 'host.docker.internal'
     def DEPLOY_PATH = '/home/carl/deploy-laravel'
     def DEPLOY_USER = 'carl'
 
