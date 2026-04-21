@@ -1,7 +1,7 @@
 node {
     checkout scm
 
-    def PROD_HOST = '127.0.0.1'
+    def PROD_HOST = '172.30.236.229'
     def DEPLOY_PATH = '/home/carl/deploy-laravel'
     def DEPLOY_USER = 'carl'
 
